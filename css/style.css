@@ -4,6 +4,10 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
 nav ul {
     list-style: none;
     background-color: #4a4a4f;
@@ -32,18 +36,20 @@ nav a:hover {
 }
 
 .card {
-    float: left;
+    display: inline-block;
     width: 20%;
     margin-left: 10%;
+    
 }
 
 .card a {
     text-align: center;
+    
 }
 
 img {
     width: 100%;
-    height: 280%;
+    height: 180%;
 }
 
 h2 {
